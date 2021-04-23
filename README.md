@@ -6,5 +6,8 @@ textbag is a work-in-progress python module for implementing a bag-of-words tran
 * Function to create a set containing all words contained in whatever text data is passed.
 * Function to create a bag of words representation of text data.
 
+## Installation
+pip3 install textbag
+
 ## Authors
 * Jacob Der
