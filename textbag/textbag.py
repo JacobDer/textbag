@@ -19,6 +19,10 @@ def _clean_string(text):
     stopwords = nltk.corpus.stopwords.words('english')
     punctuation = string.punctuation
     
+    # Add a space before and after every punctutation.
+    for punctuation in string.punctuation:
+        text = text.replace(punctuation, f' {punctuation} ')
+    
     tokenized_text = nltk.word_tokenize(text)
     
     # Remove stop words and punctuation.
