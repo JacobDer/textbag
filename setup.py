@@ -9,7 +9,7 @@ README = (HERE / "README.md").read_text()
 # This call to setup() does all the work
 setup(
     name="textbag",
-    version="1.1.0",
+    version="1.1.3",
     description="bag-of-words implementer and tools",
     long_description=README,
     long_description_content_type="text/markdown",
@@ -22,7 +22,7 @@ setup(
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.9",
     ],
-    packages=['preprocessing'],
+    packages=['textbag'],
     include_package_data=True,
     install_requires=["nltk", "pandas", "numpy"]
 )

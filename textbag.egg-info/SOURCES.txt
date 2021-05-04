@@ -1,6 +1,6 @@
 README.md
 setup.py
-preprocessing/preprocessing.py
+textbag/preprocessing.py
 textbag.egg-info/PKG-INFO
 textbag.egg-info/SOURCES.txt
 textbag.egg-info/dependency_links.txt
