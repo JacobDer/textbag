@@ -17,7 +17,6 @@ def _clean_string(text):
     
     # Stop words and punctuations to remove.
     stopwords = nltk.corpus.stopwords.words('english')
-    punctuation = string.punctuation
     
     # Add a space before and after every punctutation.
     for punctuation in string.punctuation:
@@ -27,7 +26,7 @@ def _clean_string(text):
     
     # Remove stop words and punctuation.
     text_clean = [word for word in tokenized_text if word not in stopwords]
-    text_clean = [word for word in text_clean if word not in punctuation]
+    text_clean = [word for word in text_clean if word not in string.punctuation]
 
     # Merge remaining tokens back into a string.
     cleaned_text = ' '.join(text_clean).lower()
