@@ -1,5 +1,5 @@
 # textbag
-textbag is a work-in-progress python module for implementing a bag-of-words transformation on various types of text data.
+textbag is a Python module for implementing a bag-of-words transformation on various types of text data.
 
 ## Features
 * Function to clean text (remove stop-words and punctuation).
